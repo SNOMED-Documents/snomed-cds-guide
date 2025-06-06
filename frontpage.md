@@ -26,5 +26,3 @@ layout:
 ***
 
 SNOMED CT Document Library: [http://snomed.org/doc](http://snomed.org/doc)
-
-{% include ".gitbook/includes/untitled.md" %}
