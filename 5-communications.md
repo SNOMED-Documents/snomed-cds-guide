@@ -47,7 +47,7 @@ CDS Hooks is a relatively new CDS initiative which aims to automate the launchin
 
 The [screen shot](#user-content-fn-6)[^6] below captures part of a CDS hook. Note that the condition the clinician is treating is represented using the SNOMED CT code for [396275006 <mark style="color:blue;">|</mark> Osteoarthritis<mark style="color:blue;">|</mark>](http://snomed.info/id/396275006).
 
-<figure><img src="images/123897674.png" alt=""><figcaption><p>Figure 5.1-1: CDS Hooks demonstration tool</p></figcaption></figure>
+<figure><img src="images/123897674.png" alt=""><figcaption><p>CDS Hooks demonstration tool</p></figcaption></figure>
 
 For more information about CDS Hooks, please refer to [http://cds-hooks.org/](http://cds-hooks.org/).
 

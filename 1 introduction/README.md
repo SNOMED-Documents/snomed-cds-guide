@@ -2,7 +2,7 @@
 
 ## Background
 
-SNOMED CT is a standardized and multilingual clinical terminology used by clinicians and other health care providers to record and share health information. As the most comprehensive terminology in the world, SNOMED CT contains over 300,000 active clinical concepts, each representing a unique clinical meaning. These concepts are organized into hierarchies such as [404684003 <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>](http://snomed.info/id/404684003) , [71388002 <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>](http://snomed.info/id/71388002), [123037004 <mark style="color:blue;">|</mark> Body structure<mark style="color:blue;">|</mark>](http://snomed.info/id/123037004) and [373873005 <mark style="color:blue;">|</mark> Pharmaceutical / biologic product<mark style="color:blue;">|</mark>](http://snomed.info/id/373873005).
+SNOMED CT is a standardized and multilingual clinical terminology used by clinicians and other health care providers to record and share health information. As the most comprehensive terminology in the world, SNOMED CT contains over 300,000 active clinical concepts, each representing a unique clinical meaning. These concepts are organized into hierarchies such as [404684003 <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>](http://snomed.info/id/404684003), [71388002 <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>](http://snomed.info/id/71388002), [123037004 <mark style="color:blue;">|</mark> Body structure<mark style="color:blue;">|</mark>](http://snomed.info/id/123037004) and [373873005 <mark style="color:blue;">|</mark> Pharmaceutical / biologic product<mark style="color:blue;">|</mark>](http://snomed.info/id/373873005).
 
 SNOMED CT is increasingly being used in clinical decision support (CDS) systems to support healthcare providers in making well informed clinical decisions. SNOMED CT's polyhierarchy, defining relationships and concept model are just some of the terminology's features that help to link patient records to the appropriate guidance, clinical knowledge and decision support rules.
 
@@ -30,10 +30,10 @@ This guide assumes a basic level of understanding of SNOMED CT. For background i
 
 The guide presents an introduction to clinical decision support using SNOMED CT and is structured as follows:
 
-* [Introduction](../1%20introduction/1.-Introduction_123897414.html): Provides an introduction to the guide, and defines clinical decision support (CDS) and clinical decision support systems (CDSS). It then presents an overview of CDS (including its scope, history and the 'five rights'), it explores the functional and clinical areas in which CDS is used, the features of SNOMED CT that support CDS, and a table of abbreviations used in this guide.
-* [Logical Architecture](../1%20introduction/2.-Logical-Architecture_123897452.html): Presents an overview of the logical architecture of an electronic health records system that uses CDS, and the internal components of a CDSS system.
-* [Knowledge Base](../1%20introduction/3.-Knowledge-Base_123897475.html): Describes the knowledge base of a CDSS, in which the knowledge artifacts that drive the CDS are stored, and how SNOMED CT may be used within these artifacts.
-* [Inference Engine](../1%20introduction/4.-Inference-Engine_123897580.html): Explains how the inference engine of a CDSS can use SNOMED CT to execute the knowledge artifacts in the knowledge base.
-* [Communications](../1%20introduction/5.-Communications_123897660.html): Explores some of the considerations around implementing the communication mechanisms in a CDSS.
+* [Introduction](./): Provides an introduction to the guide, and defines clinical decision support (CDS) and clinical decision support systems (CDSS). It then presents an overview of CDS (including its scope, history and the 'five rights'), it explores the functional and clinical areas in which CDS is used, the features of SNOMED CT that support CDS, and a table of abbreviations used in this guide.
+* [Logical Architecture](../2-logical-architecture.md): Presents an overview of the logical architecture of an electronic health records system that uses CDS, and the internal components of a CDSS system.
+* [Knowledge Base](<../3 knowledge-base/>): Describes the knowledge base of a CDSS, in which the knowledge artifacts that drive the CDS are stored, and how SNOMED CT may be used within these artifacts.
+* [Inference Engine](../4-inference-engine.md): Explains how the inference engine of a CDSS can use SNOMED CT to execute the knowledge artifacts in the knowledge base.
+* [Communications](../5-communications.md): Explores some of the considerations around implementing the communication mechanisms in a CDSS.
 
 ***

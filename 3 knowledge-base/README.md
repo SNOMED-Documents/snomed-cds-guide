@@ -17,8 +17,8 @@ The diagram below illustrates the key interactions with the knowledge base, as d
 
 The topics below are presented in more detail in the following sections:
 
-* [Rules](../3%20knowledge-base/3.1.-Rules_123897479.html)
-* [Guidelines](../3%20knowledge-base/3.2.-Guidelines_123897540.html)
-* [Substrate](../3%20knowledge-base/3.3.-Substrate_123897579.html)
+* [Rules](../3-knowledge-base/3.1-rules.md)
+* [Guidelines](../3-knowledge-base/3.2-guidelines.md)
+* [Substrate](3.3-substrate.md)
 
 ***
