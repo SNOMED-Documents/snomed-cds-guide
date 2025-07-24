@@ -25,7 +25,7 @@ Value sets are an integral part of terminology management services at Kaiser Per
 
 KP uses the native functions provided by Epic to define and maintain CDS rules. This accounts for all criteria used in the rules, such as inclusions and exclusions. A screen shot of the tool used to define these criteria is shown below.
 
-<figure><img src="../../images/123897681.png" alt=""><figcaption><p>Figure 2: KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
+<figure><img src="../../images/123897681.png" alt=""><figcaption><p> KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
 
 Clinical decision support at Kaiser Permanente leverages the value sets developed by their CMT team. For example, a CDS rule which uses value sets associated with [195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>](http://snomed.info/id/195967001) and [33252009 <mark style="color:blue;">|</mark> beta-blocker<mark style="color:blue;">|</mark>](http://snomed.info/id/33252009) drugs is used to trigger an alert when specific conditions are met in the patient encounter, diagnosis, or problem list. The diagram below shows the associated value sets used in this rule.
 

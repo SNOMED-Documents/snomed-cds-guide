@@ -24,7 +24,7 @@ The following SNOMED CT techniques can be used by the CDS inference engine:
 
 A subset is defined in mathematics as a set whose members are all contained in another set. A SNOMED CT [Subset](https://app.gitbook.com/s/qOI2v58ZsXOoklmwBOk4/2-subsets-value-sets-and-reference-sets/2.1-subset) typically refers to a collection of components that all come from the same edition of SNOMED CT. This is depicted in the diagram below.
 
-<figure><img src="images/123897595.png" alt=""><figcaption><p>Figure 4.1.1-1: A subset of concepts related to the diagnosis of asthma is selected from the International Edition of SNOMED CT</p></figcaption></figure>
+<figure><img src="images/123897595.png" alt=""><figcaption><p>A subset of concepts related to the diagnosis of asthma is selected from the International Edition of SNOMED CT</p></figcaption></figure>
 
 A SNOMED CT subset may be defined **extensionally**, by enumerating all of the components in the set or **intensionally**, by defining a query written using the [Expression Constraint Language](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/sOJBD7YbxAy9bD1Ko9L9/).
 

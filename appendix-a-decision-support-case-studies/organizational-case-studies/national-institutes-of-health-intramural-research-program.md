@@ -29,7 +29,7 @@ Image: MedlinePlus Infobutton Manager: request and response
 
 The requests conform to the [HL7 Context-Aware Knowledge Retrieval (Infobutton) Knowledge Request URL-Based Implementation Guide](http://wiki.hl7.org/index.php?title=Product_Infobutton#Product_Name_-_HL7_V3_IG:_URL-Based_Implementations_of_the_Context-Aware_Information_Retrieval_.28Infobutton.29). A screen shot of the application's response to a request for information on [<mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>](http://snomed.info/id/195967001) is provided below:
 
-<figure><img src="../../images/123897692.png" alt=""><figcaption><p>Figure 3: MedlinePlus Connect web application response to request for information on problem code 195967001 | Asthma (disorder) |</p></figcaption></figure>
+<figure><img src="../../images/123897692.png" alt=""><figcaption><p> MedlinePlus Connect web application response to request for information on problem code 195967001 | Asthma (disorder) |</p></figcaption></figure>
 
 ## Observational Health Data Sciences and Informatics (OHDSI)
 
