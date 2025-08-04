@@ -1,8 +1,6 @@
 # Table of contents
 
 * [SNOMED CT Clinical Decision Support Guide](README.md)
-* [Implementation Guide FRONT PAGE](frontpage.md)
-* [DOCCDS (Decision Support with SNOMED CT)](index.md)
 * [Introduction](<1 introduction/README.md>)
   * [Overview](<1 introduction/1.1-overview.md>)
 * [Logical Architecture](2-logical-architecture.md)
