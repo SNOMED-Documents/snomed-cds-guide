@@ -41,3 +41,10 @@ Patient records in Snow Owl MQ are aligned with the [Observational Medical Outco
 ## Benefits
 
 Based on B2i's experience, SNOMED CT's concept model helps to support dynamic subset creation, and in turn, flexible selection of patient cohorts. B2i has also found that patient records encoded with SNOMED CT are embedded with the clinical knowledge to help answer complex clinical questions that can then support new decision-making algorithms. By leveraging SNOMED CT, Snow Owl MQ supports real-time cohort creation and observational data analysis to quickly validate clinical hypotheses.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=B2i%20Healthcare" class="button primary">Provide Feedback</a>

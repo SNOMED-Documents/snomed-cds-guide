@@ -253,3 +253,10 @@ Standardized APIs for terminology services are also available. For example, HL7'
 [^7]: [http://snomed.org/analytics](http://snomed.org/analytics)
 
 [^8]: [http://hl7.org/fhir/terminology-module.html](http://hl7.org/fhir/terminology-module.html)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Inference%20Engine" class="button primary">Provide Feedback</a>

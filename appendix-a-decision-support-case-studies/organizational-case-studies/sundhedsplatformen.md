@@ -23,3 +23,10 @@ It is worth noting that SNOMED CT is already used in many existing clinical data
 [^1]: Case study uses content from [Sundhedsplatformen presentation](https://infocentral.infoway-inforoute.ca/en/resources/docs/snomedct/presentations/1023-kitta-lawton-and-gert-galster-presentation-may-17-2016) for Canada Health Infoway, May 17, 2016 . (Account needed to access file.)
 
 [^2]: [https://galster.dk/gert/docs/20161013\_ESObs\_Sundhedsplatformen.pdf](https://galster.dk/gert/docs/20161013_ESObs_Sundhedsplatformen.pdf)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Sundhedsplatformen" class="button primary">Provide Feedback</a>

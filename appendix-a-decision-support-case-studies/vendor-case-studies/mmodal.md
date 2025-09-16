@@ -98,3 +98,10 @@ As mentioned earlier, the same clinical reasoning is also leveraged to provide r
 | [2](https://confluence.ihtsdotools.org/display/DOCCDS/M*Modal#FootnoteMarker2-0) | [https://mmodal.com/](https://mmodal.com/)                                                                                                     |
 
 [^1]: [https://www.solventum.com/en-us/home/health-information-technology/solutions/fluency-direct/](https://www.solventum.com/en-us/home/health-information-technology/solutions/fluency-direct/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=M%5C%2AModal" class="button primary">Provide Feedback</a>

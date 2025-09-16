@@ -25,3 +25,10 @@ All EBMPracticeNet guidelines are associated with metadata which includes the re
 ***
 
 [^1]: [EBMPracticeNet: A Bilingual National Electronic Point-Of-Care Project for Retrieval of Evidence-Based Clinical Guideline Information and Decision Support](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3713937/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=EBMPracticeNet" class="button primary">Provide Feedback</a>

@@ -62,3 +62,10 @@ For more information about CDS Hooks, please refer to [http://cds-hooks.org/](ht
 [^5]: [HL7](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=12) definition of DSS: "A Decision Support Service takes in patient data as the input and provides back patient-specific assessments and recommendations."
 
 [^6]: Screen shot from [CDS Hooks Demo](http://demo.cds-hooks.org/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Communications" class="button primary">Provide Feedback</a>

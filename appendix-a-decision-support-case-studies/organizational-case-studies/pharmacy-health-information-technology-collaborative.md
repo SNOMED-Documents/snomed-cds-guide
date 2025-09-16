@@ -30,3 +30,10 @@ Medication outcomes could also be documented using SNOMED CT. For example, SNOME
 [^1]: [http://www.pharmacyhit.org/index.php/news-releases/2016-archive/november-2016-press-release](http://www.pharmacyhit.org/index.php/news-releases/2016-archive/november-2016-press-release)
 
 [^2]: [http://www.pharmacyhit.org/](http://www.pharmacyhit.org/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Pharmacy%20Health%20Information%20Technology%20Collaborative" class="button primary">Provide Feedback</a>

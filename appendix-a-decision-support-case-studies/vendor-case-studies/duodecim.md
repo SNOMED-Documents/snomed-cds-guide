@@ -24,3 +24,10 @@ At present, EBMeDS is used mainly in Finland. Duodecim is planning to offer a cl
 [^1]: [http://www.duodecim.fi/english/](http://www.duodecim.fi/english/)
 
 [^2]: https://www.duodecim.fi/english/products/ebmg/
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Duodecim" class="button primary">Provide Feedback</a>

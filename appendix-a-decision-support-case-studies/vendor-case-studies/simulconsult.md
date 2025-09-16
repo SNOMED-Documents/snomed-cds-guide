@@ -42,3 +42,10 @@ Although SimulConsult does not use SNOMED CT codes to drive decision support log
 | [3](https://confluence.ihtsdotools.org/display/DOCCDS/SimulConsult#FootnoteMarker3-0) | [SimulConsult leverages National Library of Medicine information to improve medical diagnosis](https://www.youtube.com/watch?v=4zVquU2z53Q) |
 
 [^1]: [http://www.simulconsult.com/](http://www.simulconsult.com/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=SimulConsult" class="button primary">Provide Feedback</a>

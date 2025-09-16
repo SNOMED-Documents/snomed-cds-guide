@@ -43,3 +43,10 @@ The diagram below illustrates how the components of the CDSS (shown in the blue 
 Internal CDSS interfaces are represented by the green directional arrows, while external CDSS interfaces are represented by the orange arrows. Note that the inference engine interfaces directly with record and terminology services while communications, which is focused on the delivery of CDSS inputs and outputs, interfaces directly with the user interface.
 
 [^1]: [https://en.wikipedia.org/wiki/Clinical\_decision\_support\_system#Knowledge-based\_CDSS](https://en.wikipedia.org/wiki/Clinical_decision_support_system#Knowledge-based_CDSS)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Logical%20Architecture" class="button primary">Provide Feedback</a>

@@ -41,3 +41,10 @@ SNOMED CT provides Infermedica with a rich dictionary of terms which can be used
 ***
 
 [^1]: [https://www.linkedin.com/company/infermedica](https://www.linkedin.com/company/infermedica)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Infermedica" class="button primary">Provide Feedback</a>

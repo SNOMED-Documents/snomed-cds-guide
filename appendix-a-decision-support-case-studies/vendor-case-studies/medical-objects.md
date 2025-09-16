@@ -62,3 +62,10 @@ An example gastroenterology archetype is shown in the sequence of figures below.
 [^1]: [https://www.medical-objects.com.au/company-information/about-us/](https://www.medical-objects.com.au/company-information/about-us/)
 
 [^2]: [https://www.medical-objects.com.au/solutions/clinical-decision-support/](https://www.medical-objects.com.au/solutions/clinical-decision-support/)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Medical-Objects" class="button primary">Provide Feedback</a>
