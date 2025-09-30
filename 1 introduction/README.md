@@ -2,7 +2,7 @@
 
 ## Background
 
-SNOMED CT is a standardized and multilingual clinical terminology used by clinicians and other health care providers to record and share health information. As the most comprehensive terminology in the world, SNOMED CT contains over 300,000 active clinical concepts, each representing a unique clinical meaning. These concepts are organized into hierarchies such as [404684003 <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>](http://snomed.info/id/404684003), [71388002 <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>](http://snomed.info/id/71388002), [123037004 <mark style="color:blue;">|</mark> Body structure<mark style="color:blue;">|</mark>](http://snomed.info/id/123037004) and [373873005 <mark style="color:blue;">|</mark> Pharmaceutical / biologic product<mark style="color:blue;">|</mark>](http://snomed.info/id/373873005).
+SNOMED CT is a standardized and multilingual clinical terminology used by clinicians and other health care providers to record and share health information. As the most comprehensive terminology in the world, SNOMED CT contains over 300,000 active clinical concepts, each representing a unique clinical meaning. These concepts are organized into hierarchies such as 404684003 <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>, 71388002 <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>, 123037004 <mark style="color:blue;">|</mark> Body structure<mark style="color:blue;">|</mark> and 373873005 <mark style="color:blue;">|</mark> Pharmaceutical / biologic product<mark style="color:blue;">|</mark>.
 
 SNOMED CT is increasingly being used in clinical decision support (CDS) systems to support healthcare providers in making well informed clinical decisions. SNOMED CT's polyhierarchy, defining relationships and concept model are just some of the terminology's features that help to link patient records to the appropriate guidance, clinical knowledge and decision support rules.
 
@@ -38,9 +38,4 @@ The guide presents an introduction to clinical decision support using SNOMED CT 
 
 ***
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Introduction" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Introduction" class="button primary">Provide Feedback</a>

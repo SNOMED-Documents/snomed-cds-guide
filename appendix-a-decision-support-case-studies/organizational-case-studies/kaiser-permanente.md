@@ -1,8 +1,7 @@
 # Kaiser Permanente
 
 {% hint style="info" %}
-[Founded in 1945, Kaiser Permanente is one of the nation’s largest not-for-profit health plans, serving more than 11.3 million members, with headquarters in Oakland, California](#user-content-fn-1)[^1]. The (Kaiser Permanente HealthConnect ) system facilitates communication between our members and health professionals to help make getting well and staying healthy easy and convenient. [It improves member safety and quality of care by providing access to comprehensive patient information and the latest best practice research in one place](#user-content-fn-2)[^2]. \
-
+[Founded in 1945, Kaiser Permanente is one of the nation’s largest not-for-profit health plans, serving more than 11.3 million members, with headquarters in Oakland, California](#user-content-fn-1)[^1]. The (Kaiser Permanente HealthConnect ) system facilitates communication between our members and health professionals to help make getting well and staying healthy easy and convenient. [It improves member safety and quality of care by providing access to comprehensive patient information and the latest best practice research in one place](#user-content-fn-2)[^2]. \\
 
 For more information please visit [https://healthy.kaiserpermanente.org/](https://healthy.kaiserpermanente.org/).
 {% endhint %}
@@ -17,7 +16,7 @@ KP loads SNOMED CT in its native RF2 format into the HealthConnect EMR system. T
 
 ## Value Sets
 
-Value sets are an integral part of terminology management services at Kaiser Permanente. Value set identification, development, deployment, and maintenance is performed using a custom tool developed within KP. This "Subset Management" tool utilizes the native ontological structure of SNOMED CT and adds KPHC local terminology as additional artifacts within the terminology model. The formal concept definitions of SNOMED CT are used to define and generate the required value sets. The "CMT Query" tool also uses the hierarchy of SNOMED CT and description logic reasoning to identify value sets of clinician friendly terms used in patient clinical encounters. These value sets are also used within KPHC to drive business intelligence (including CDS), support workflow, and enable data reporting and analytics. As shown in the screen shot below, the queries used to define value sets leverage SNOMED CT defining relationships, such as those using the attributes [363698007 <mark style="color:blue;">|</mark> Finding site<mark style="color:blue;">|</mark>](http://snomed.info/id/363698007) and [116676008 <mark style="color:blue;">|</mark> Associated morphology<mark style="color:blue;">|</mark>](http://snomed.info/id/116676008).
+Value sets are an integral part of terminology management services at Kaiser Permanente. Value set identification, development, deployment, and maintenance is performed using a custom tool developed within KP. This "Subset Management" tool utilizes the native ontological structure of SNOMED CT and adds KPHC local terminology as additional artifacts within the terminology model. The formal concept definitions of SNOMED CT are used to define and generate the required value sets. The "CMT Query" tool also uses the hierarchy of SNOMED CT and description logic reasoning to identify value sets of clinician friendly terms used in patient clinical encounters. These value sets are also used within KPHC to drive business intelligence (including CDS), support workflow, and enable data reporting and analytics. As shown in the screen shot below, the queries used to define value sets leverage SNOMED CT defining relationships, such as those using the attributes 363698007 <mark style="color:blue;">|</mark> Finding site<mark style="color:blue;">|</mark> and 116676008 <mark style="color:blue;">|</mark> Associated morphology<mark style="color:blue;">|</mark>.
 
 <figure><img src="../../images/123897680.png" alt=""><figcaption><p>KP Query Tool enables subset management using SNOMED CT's hierarchy and defining relationships</p></figcaption></figure>
 
@@ -25,13 +24,15 @@ Value sets are an integral part of terminology management services at Kaiser Per
 
 KP uses the native functions provided by Epic to define and maintain CDS rules. This accounts for all criteria used in the rules, such as inclusions and exclusions. A screen shot of the tool used to define these criteria is shown below.
 
-<figure><img src="../../images/123897681.png" alt=""><figcaption><p> KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
+<figure><img src="../../images/123897681.png" alt=""><figcaption><p>KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
 
-Clinical decision support at Kaiser Permanente leverages the value sets developed by their CMT team. For example, a CDS rule which uses value sets associated with [195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>](http://snomed.info/id/195967001) and [33252009 <mark style="color:blue;">|</mark> beta-blocker<mark style="color:blue;">|</mark>](http://snomed.info/id/33252009) drugs is used to trigger an alert when specific conditions are met in the patient encounter, diagnosis, or problem list. The diagram below shows the associated value sets used in this rule.
+Clinical decision support at Kaiser Permanente leverages the value sets developed by their CMT team. For example, a CDS rule which uses value sets associated with 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark> and 33252009 <mark style="color:blue;">|</mark> beta-blocker<mark style="color:blue;">|</mark> drugs is used to trigger an alert when specific conditions are met in the patient encounter, diagnosis, or problem list. The diagram below shows the associated value sets used in this rule.
 
-<figure><img src="../../images/123897684.png" alt=""><figcaption><p> An example of an alert that uses SNOMED CT value sets in business intelligence and CDS at KP</p></figcaption></figure>
+<figure><img src="../../images/123897684.png" alt=""><figcaption><p>An example of an alert that uses SNOMED CT value sets in business intelligence and CDS at KP</p></figcaption></figure>
 
 ***
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Kaiser%20Permanente" class="button primary">Provide Feedback</a>
 
 [^1]: [https://share.kaiserpermanente.org/article/fast-facts-about-kaiser-permanente/](https://share.kaiserpermanente.org/article/fast-facts-about-kaiser-permanente/)
 
@@ -40,10 +41,3 @@ Clinical decision support at Kaiser Permanente leverages the value sets develope
 [^3]: [https://share.kaiserpermanente.org/total-health/connectivity](https://share.kaiserpermanente.org/total-health/connectivity/)
 
 [^4]: [https://www.nlm.nih.gov/research/umls/cmt/cmt\_faq.html#q1](https://www.nlm.nih.gov/research/umls/cmt/cmt_faq.html#q1)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Kaiser%20Permanente" class="button primary">Provide Feedback</a>

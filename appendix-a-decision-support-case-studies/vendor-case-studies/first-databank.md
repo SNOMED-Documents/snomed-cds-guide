@@ -1,7 +1,7 @@
 # First Databank
 
 {% hint style="info" %}
-FDB (First Databank)... is the leading provider of drug knowledge that helps healthcare professionals make precise medication-related decisions... FDB enables our information system developer partners to deliver a wide range of valuable, useful, and differentiated solutions. [As the company that virtually launched the medication decision support category, we offer more than three decades of experience in transforming drug knowledge into actionable, targeted, and effective solutions that improve patient safety and healthcare outcomes](#user-content-fn-1)[^1]. &#x20;
+FDB (First Databank)... is the leading provider of drug knowledge that helps healthcare professionals make precise medication-related decisions... FDB enables our information system developer partners to deliver a wide range of valuable, useful, and differentiated solutions. [As the company that virtually launched the medication decision support category, we offer more than three decades of experience in transforming drug knowledge into actionable, targeted, and effective solutions that improve patient safety and healthcare outcomes](#user-content-fn-1)[^1].
 
 For more information please visit [http://www.fdbhealth.com/](http://www.fdbhealth.com/).
 {% endhint %}
@@ -18,11 +18,11 @@ The contraindications module alerts the clinician when a medication proposed to 
 
 Thousands of such drug-condition contraindications exist and nearly all medications have at least one. Without point of care decision support, the clinician must rely on memory or search reference sources for each drug prescribed. Also there is a risk that a contraindicating condition may be in the record but unknown to the prescribing clinician.
 
-In a SNOMED CT enabled EHR, both the drugs (e.g. [318353009 <mark style="color:blue;">|</mark> propranolol hydrochloride 40mg tablet<mark style="color:blue;">|</mark>](http://snomed.info/id/318353009) ) and the conditions (e.g. [370219009 <mark style="color:blue;">|</mark> moderate asthma<mark style="color:blue;">|</mark>](http://snomed.info/id/370219009) ) are encoded.
+In a SNOMED CT enabled EHR, both the drugs (e.g. 318353009 <mark style="color:blue;">|</mark> propranolol hydrochloride 40mg tablet<mark style="color:blue;">|</mark> ) and the conditions (e.g. 370219009 <mark style="color:blue;">|</mark> moderate asthma<mark style="color:blue;">|</mark> ) are encoded.
 
-Internally FDB maintain their own local ontology representing only those conditions relevant to prescribing decision support (e.g. asthma, gastric ulcer, heart disease, pregnancy). The items in this ontology are linked to SNOMED CT codes as required to support this (contraindication checking) use case. These SNOMED CT links range from the obvious, such as linking [195967001 <mark style="color:blue;">|</mark> asthma<mark style="color:blue;">|</mark>](http://snomed.info/id/195967001) to FDB's 'asthma', to the more subtle, such as linking [447413000 <mark style="color:blue;">|</mark> drainage of amniotic fluid using ultrasound guidance<mark style="color:blue;">|</mark>](http://snomed.info/id/447413000) to FDB's 'pregnancy'.
+Internally FDB maintain their own local ontology representing only those conditions relevant to prescribing decision support (e.g. asthma, gastric ulcer, heart disease, pregnancy). The items in this ontology are linked to SNOMED CT codes as required to support this (contraindication checking) use case. These SNOMED CT links range from the obvious, such as linking 195967001 <mark style="color:blue;">|</mark> asthma<mark style="color:blue;">|</mark> to FDB's 'asthma', to the more subtle, such as linking 447413000 <mark style="color:blue;">|</mark> drainage of amniotic fluid using ultrasound guidance<mark style="color:blue;">|</mark> to FDB's 'pregnancy'.
 
-FDB reviews the relevant SNOMED CT domains (i.e. [<mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>](http://snomed.info/id/404684003), [<mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>](http://snomed.info/id/71388002) and [<mark style="color:blue;">|</mark> Situation with explicit context<mark style="color:blue;">|</mark>](http://snomed.info/id/243796009) ) for concepts applicable to drug-condition checking. The FDB linking tool uses the SNOMED CT [<mark style="color:blue;">|</mark> is a<mark style="color:blue;">|</mark>](http://snomed.info/id/116680003) hierarchy and a SNOMED CT derived transitive closure table to locate and suggest links from the FDB ontology to SNOMED CT concepts. Other SNOMED CT relationships also help find related concepts via the browser but discovery is mainly by clinical knowledge combined with description based searches assisted by the rich synonym content of SNOMED CT.
+FDB reviews the relevant SNOMED CT domains (i.e. <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>, <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark> and <mark style="color:blue;">|</mark> Situation with explicit context<mark style="color:blue;">|</mark> ) for concepts applicable to drug-condition checking. The FDB linking tool uses the SNOMED CT <mark style="color:blue;">|</mark> is a<mark style="color:blue;">|</mark> hierarchy and a SNOMED CT derived transitive closure table to locate and suggest links from the FDB ontology to SNOMED CT concepts. Other SNOMED CT relationships also help find related concepts via the browser but discovery is mainly by clinical knowledge combined with description based searches assisted by the rich synonym content of SNOMED CT.
 
 ## Drug Sensitivity (Allergy) Checks
 
@@ -32,13 +32,8 @@ In a similar way to how FDB links SNOMED CT conditions to its own internal ontol
 
 ***
 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=First%20Databank" class="button primary">Provide Feedback</a>
+
 [^1]: [https://www.fdbhealth.com/solutions/medknowledge-drug-database](https://www.fdbhealth.com/solutions/medknowledge-drug-database)
 
 [^2]: Please note that the case study on this page is an excerpt from the [Data Analytics with SNOMED CT](http://snomed.org/analytics) guide.
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=First%20Databank" class="button primary">Provide Feedback</a>

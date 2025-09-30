@@ -45,11 +45,13 @@ An example of a standard which relates to CDS communications is provided below.
 
 CDS Hooks is a relatively new CDS initiative which aims to automate the launching of applications that assist with decision support. CDS Hooks are designed around the premise of a clinician initiating a triggering activity within the EHR. When the triggering activity occurs, the EHR automatically sends a notification in real time to a decision support service (DSS[^5]). This notification is considered the "hook" to the decision support logic. An example of a triggering activity would be a clinician writing a prescription. Some pre-defined hooks have already been developed and new hooks can be defined and added to the catalogue as required. Once the DSS is aware of the specific event, it may generate a response in the form of a "card" to be displayed in the UI of the EHR. An example of an "information" card might be one that contains pricing data about a proposed drug. The DSS could then propose a more cost effective "suggestion" card as an alternative. The other type of card the DSS may offer is an "app link" card which, as the names suggests, provides a link to an external application that can assist with further decision support. This architecture eliminates the need for the user to be aware of specific decision support applications that may be useful. The final outcome or choice, initiated by the app link card process, can then be automatically transferred to the appropriate field(s) in the EHR. A clinician has the option to accept or decline any suggestions present in the card. References to external knowledge resources may also be present in CDS Hooks cards.
 
-The [screen shot](#user-content-fn-6)[^6] below captures part of a CDS hook. Note that the condition the clinician is treating is represented using the SNOMED CT code for [396275006 <mark style="color:blue;">|</mark> Osteoarthritis<mark style="color:blue;">|</mark>](http://snomed.info/id/396275006).
+The [screen shot](#user-content-fn-6)[^6] below captures part of a CDS hook. Note that the condition the clinician is treating is represented using the SNOMED CT code for 396275006 <mark style="color:blue;">|</mark> Osteoarthritis<mark style="color:blue;">|</mark>.
 
 <figure><img src="images/123897674.png" alt=""><figcaption><p>CDS Hooks demonstration tool</p></figcaption></figure>
 
 For more information about CDS Hooks, please refer to [http://cds-hooks.org/](http://cds-hooks.org/).
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Communications" class="button primary">Provide Feedback</a>
 
 [^1]: [https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/)
 
@@ -62,10 +64,3 @@ For more information about CDS Hooks, please refer to [http://cds-hooks.org/](ht
 [^5]: [HL7](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=12) definition of DSS: "A Decision Support Service takes in patient data as the input and provides back patient-specific assessments and recommendations."
 
 [^6]: Screen shot from [CDS Hooks Demo](http://demo.cds-hooks.org/)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Communications" class="button primary">Provide Feedback</a>

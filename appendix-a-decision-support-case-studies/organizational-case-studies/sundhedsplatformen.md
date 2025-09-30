@@ -16,17 +16,12 @@ One of the design considerations of this system is to capture and store clinical
 
 ## Use of SNOMED CT
 
-It is worth noting that SNOMED CT is already used in many existing clinical databases and registries throughout Denmark. So from an interoperability perspective, there was incentive for the regional EHR to incorporate SNOMED CT in its implementation approach. As previously mentioned, Epic’s diagnosis-related decision support system is widely based on SNOMED CT. [For example, the ability to traverse SNOMED CT’s hierarchy is a key component of all diagnosis-related decision support in the Epic system](#user-content-fn-2)[^2]. Since the region chose SKS as the classification system, there was a need to map their local concepts to SNOMED CT to be able to perform decision support. Over 20,000 diagnosis concepts from SKS were mapped to SCT over a period of 8 months. The mapping was performed through several steps, the first of which was based on the international SNOMED CT to ICD-10 map. Compared to the alternative (i.e. mapping from scratch), this approach was a major help and significantly increased the speed and ease of the mapping process.
+It is worth noting that SNOMED CT is already used in many existing clinical databases and registries throughout Denmark. So from an interoperability perspective, there was incentive for the regional EHR to incorporate SNOMED CT in its implementation approach. As previously mentioned, Epic’s diagnosis-related decision support system is widely based on SNOMED CT. [For example, the ability to traverse SNOMED CT’s hierarchy is a key component of all diagnosis related decision support in the Epic system](#user-content-fn-2)[^2]. Since the region chose SKS as the classification system, there was a need to map their local concepts to SNOMED CT to be able to perform decision support. Over 20,000 diagnosis concepts from SKS were mapped to SCT over a period of 8 months. The mapping was performed through several steps, the first of which was based on the international SNOMED CT to ICD-10 map. Compared to the alternative (i.e. mapping from scratch), this approach was a major help and significantly increased the speed and ease of the mapping process.
 
 ***
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Sundhedsplatformen" class="button primary">Provide Feedback</a>
 
 [^1]: Case study uses content from [Sundhedsplatformen presentation](https://infocentral.infoway-inforoute.ca/en/resources/docs/snomedct/presentations/1023-kitta-lawton-and-gert-galster-presentation-may-17-2016) for Canada Health Infoway, May 17, 2016 . (Account needed to access file.)
 
 [^2]: [https://galster.dk/gert/docs/20161013\_ESObs\_Sundhedsplatformen.pdf](https://galster.dk/gert/docs/20161013_ESObs_Sundhedsplatformen.pdf)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Sundhedsplatformen" class="button primary">Provide Feedback</a>

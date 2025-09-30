@@ -4,8 +4,6 @@
 In Belgium, the construction of a national electronic point-of-care information service, EBMPracticeNet[^1], was initiated in 2011 to optimize quality of care by promoting evidence-based decision-making... All Belgian health care professionals get free access to an up-to-date database of validated Belgian and nearly 1000 international guidelines, incorporated in a portal that also provides EBM information from other sources than guidelines, including computerized clinical decision support that is integrated in the EHRs.
 
 For more information please visit [https://www.ebmpracticenet.be](https://www.ebmpracticenet.be/).
-
-
 {% endhint %}
 
 ## Overview
@@ -14,9 +12,9 @@ EBMPracticeNet is a consortium of Belgian organizations whose mission is to deve
 
 ## Technology
 
-The EBMPracticeNet consortium hosts a platform of clinical practice guidelines. Seventy five of these are from Belgium, and an additional 1000 international guidelines have been developed by [Duodecim](../../Duodecim_123897735.html), the Finnish developers of EBM guidelines. The knowledge resources from Duodecim have been translated from its language of origin into both Dutch and French, and localized for Belgium using a variant of the [ADAPTE](http://www.g-i-n.net/document-store/working-groups-documents/adaptation/adapte-resource-toolkit-guideline-adaptation-2-0.pdf) framework. Currently all guidelines are accessible through the EHR using the EvidenceLinker, which suggests relevant guidelines based on the coded diagnosis. The EvidenceLinker currently uses ICPC-2 codes for this linkage. Additionally, EBMPracticeNet uses Duodecim’s [EBMeDS](https://confluence.ihtsdotools.org/display/WIPCDS/Duodecim#EBMeDS) as the engine in their clinical decision support system, which is currently in the pilot phase. A depiction of the architecture is shown below.
+The EBMPracticeNet consortium hosts a platform of clinical practice guidelines. Seventy five of these are from Belgium, and an additional 1000 international guidelines have been developed by [Duodecim](../vendor-case-studies/duodecim.md), the Finnish developers of EBM guidelines. The knowledge resources from Duodecim have been translated from its language of origin into both Dutch and French, and localized for Belgium using a variant of the [ADAPTE](http://www.g-i-n.net/document-store/working-groups-documents/adaptation/adapte-resource-toolkit-guideline-adaptation-2-0.pdf) framework. Currently all guidelines are accessible through the EHR using the EvidenceLinker, which suggests relevant guidelines based on the coded diagnosis. The EvidenceLinker currently uses ICPC-2 codes for this linkage. Additionally, EBMPracticeNet uses Duodecim’s [EBMeDS](../vendor-case-studies/duodecim.md#ebmeds) as the engine in their clinical decision support system, which is currently in the pilot phase. A depiction of the architecture is shown below.
 
-<figure><img src="../../images/123897700.png" alt=""><figcaption><p> EBMeDS architecture</p></figcaption></figure>
+<figure><img src="../../images/123897700.png" alt=""><figcaption><p>EBMeDS architecture</p></figcaption></figure>
 
 ## SNOMED CT
 
@@ -24,11 +22,6 @@ All EBMPracticeNet guidelines are associated with metadata which includes the re
 
 ***
 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=EBMPracticeNet" class="button primary">Provide Feedback</a>
+
 [^1]: [EBMPracticeNet: A Bilingual National Electronic Point-Of-Care Project for Retrieval of Evidence-Based Clinical Guideline Information and Decision Support](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3713937/)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=EBMPracticeNet" class="button primary">Provide Feedback</a>
