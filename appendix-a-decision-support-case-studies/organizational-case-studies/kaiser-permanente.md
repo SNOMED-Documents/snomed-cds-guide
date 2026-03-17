@@ -18,17 +18,17 @@ KP loads SNOMED CT in its native RF2 format into the HealthConnect EMR system. T
 
 Value sets are an integral part of terminology management services at Kaiser Permanente. Value set identification, development, deployment, and maintenance is performed using a custom tool developed within KP. This "Subset Management" tool utilizes the native ontological structure of SNOMED CT and adds KPHC local terminology as additional artifacts within the terminology model. The formal concept definitions of SNOMED CT are used to define and generate the required value sets. The "CMT Query" tool also uses the hierarchy of SNOMED CT and description logic reasoning to identify value sets of clinician friendly terms used in patient clinical encounters. These value sets are also used within KPHC to drive business intelligence (including CDS), support workflow, and enable data reporting and analytics. As shown in the screen shot below, the queries used to define value sets leverage SNOMED CT defining relationships, such as those using the attributes 363698007 <mark style="color:blue;">|</mark> Finding site<mark style="color:blue;">|</mark> and 116676008 <mark style="color:blue;">|</mark> Associated morphology<mark style="color:blue;">|</mark>.
 
-<figure><img src="../../images/123897680.png" alt=""><figcaption><p>KP Query Tool enables subset management using SNOMED CT's hierarchy and defining relationships</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897680.png" alt=""><figcaption><p>KP Query Tool enables subset management using SNOMED CT's hierarchy and defining relationships</p></figcaption></figure>
 
 ## Clinical Decision Support
 
 KP uses the native functions provided by Epic to define and maintain CDS rules. This accounts for all criteria used in the rules, such as inclusions and exclusions. A screen shot of the tool used to define these criteria is shown below.
 
-<figure><img src="../../images/123897681.png" alt=""><figcaption><p>KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897681.png" alt=""><figcaption><p>KP uses Epic's built-in functions to define CDS rules (in this case a best practice advisory).</p></figcaption></figure>
 
 Clinical decision support at Kaiser Permanente leverages the value sets developed by their CMT team. For example, a CDS rule which uses value sets associated with 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark> and 33252009 <mark style="color:blue;">|</mark> beta-blocker<mark style="color:blue;">|</mark> drugs is used to trigger an alert when specific conditions are met in the patient encounter, diagnosis, or problem list. The diagram below shows the associated value sets used in this rule.
 
-<figure><img src="../../images/123897684.png" alt=""><figcaption><p>An example of an alert that uses SNOMED CT value sets in business intelligence and CDS at KP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897684.png" alt=""><figcaption><p>An example of an alert that uses SNOMED CT value sets in business intelligence and CDS at KP</p></figcaption></figure>
 
 ***
 

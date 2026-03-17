@@ -6,7 +6,7 @@ The purpose of the communications mechanism is to handle CDS communications into
 
 The figure below depicts the key interactions of the CDS communications mechanism.
 
-<figure><img src="images/123897663.png" alt=""><figcaption><p>Communications key interactions</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897663.png" alt=""><figcaption><p>Communications key interactions</p></figcaption></figure>
 
 Once the inference engine has determined that an intervention is appropriate, the communications mechanism takes over and handles its delivery. Conversely, user inputs are also delivered into the CDSS by the communications mechanism. Note that guidelines or knowledge resources may reference externally hosted content, which may be accessed by the user via a link. An example of this would be a PubMed[^1] citation for biomedical literature.
 
@@ -16,7 +16,7 @@ Note that the diagram also shows how the internal CDSS communications (associate
 
 The following screenshot[^2] was generated from an EHR with CDS capabilities. This illustrates what a typical CDS intervention may look like.
 
-<figure><img src="images/123897662.png" alt=""><figcaption><p>User Interface depicting CDS intervention which links to knowledge resource</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897662.png" alt=""><figcaption><p>User Interface depicting CDS intervention which links to knowledge resource</p></figcaption></figure>
 
 Note that the contents of this alert have been magnified for the purpose of this illustration. Characteristics of this alert include:
 
@@ -47,7 +47,7 @@ CDS Hooks is a relatively new CDS initiative which aims to automate the launchin
 
 The [screen shot](#user-content-fn-6)[^6] below captures part of a CDS hook. Note that the condition the clinician is treating is represented using the SNOMED CT code for 396275006 <mark style="color:blue;">|</mark> Osteoarthritis<mark style="color:blue;">|</mark>.
 
-<figure><img src="images/123897674.png" alt=""><figcaption><p>CDS Hooks demonstration tool</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897674.png" alt=""><figcaption><p>CDS Hooks demonstration tool</p></figcaption></figure>
 
 For more information about CDS Hooks, please refer to [http://cds-hooks.org/](http://cds-hooks.org/).
 

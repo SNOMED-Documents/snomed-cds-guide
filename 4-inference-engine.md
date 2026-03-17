@@ -4,7 +4,7 @@ At the heart of a clinical decision support system, the inference engine uses in
 
 The diagram below illustrates the key inference engine interactions described above:
 
-<figure><img src="images/123897581.png" alt=""><figcaption><p>Inference engine key interactions</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897581.png" alt=""><figcaption><p>Inference engine key interactions</p></figcaption></figure>
 
 The following topics , which relate to the inference engine, are explored in the following sections:
 
@@ -24,7 +24,7 @@ The following SNOMED CT techniques can be used by the CDS inference engine:
 
 A subset is defined in mathematics as a set whose members are all contained in another set. A SNOMED CT [Subset](https://app.gitbook.com/s/qOI2v58ZsXOoklmwBOk4/2-subsets-value-sets-and-reference-sets/2.1-subset) typically refers to a collection of components that all come from the same edition of SNOMED CT. This is depicted in the diagram below.
 
-<figure><img src="images/123897595.png" alt=""><figcaption><p>A subset of concepts related to the diagnosis of asthma is selected from the International Edition of SNOMED CT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897595.png" alt=""><figcaption><p>A subset of concepts related to the diagnosis of asthma is selected from the International Edition of SNOMED CT</p></figcaption></figure>
 
 A SNOMED CT subset may be defined **extensionally**, by enumerating all of the components in the set or **intensionally**, by defining a query written using the [Expression Constraint Language](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/sOJBD7YbxAy9bD1Ko9L9/).
 
@@ -38,7 +38,7 @@ This section presents a simple example of a CDS rule defined using a SNOMED CT s
 
 The diagram below shows a simple CDS rule based on the IF-condition-THEN-action pattern. This rule uses a SNOMED CT subset to define the set of diagnoses that should trigger the display of the asthma management guidelines. It can be read as follows - "IF the diagnosis is a member of the Asthma conditions reference set THEN display the asthma management guidelines".
 
-<figure><img src="images/123897589.png" alt=""><figcaption><p>CDS rule which uses fictitious "Asthma conditions ref subset" in its definition</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897589.png" alt=""><figcaption><p>CDS rule which uses fictitious "Asthma conditions ref subset" in its definition</p></figcaption></figure>
 
 #### Execution of Rule
 
@@ -46,7 +46,7 @@ When executing this rule, the inference engine checks the given diagnosis for me
 
 The diagram below illustrates the process followed by the inference engine in executing the CDS condition in the above rule, when the clinician selects a diagnosis of 370220003 <mark style="color:blue;">|</mark> Occasional asthma<mark style="color:blue;">|.</mark> The inference engine checks if this concept is a member of the <mark style="color:red;">239999999106</mark> <mark style="color:blue;">|</mark> Asthma conditions reference set<mark style="color:blue;">|</mark>, and determines that it is not a member. As a result, the condition evaluates to false, and the action is not triggered.
 
-<figure><img src="images/123898052.png" alt=""><figcaption><p>The inference engine compares the diagnosis entered against a predefined Asthma Conditions Subset</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123898052.png" alt=""><figcaption><p>The inference engine compares the diagnosis entered against a predefined Asthma Conditions Subset</p></figcaption></figure>
 
 ### Reasoning using Subsumption
 
@@ -54,13 +54,13 @@ One of the fundamental benefits of SNOMED CT is its built-in polyhierarchy that 
 
 For example, 54441004 <mark style="color:blue;">|</mark> Fracture of shaft of femur<mark style="color:blue;">|</mark> has an 116680003 <mark style="color:blue;">|</mark> is a<mark style="color:blue;">|</mark> relationship to 71620000 <mark style="color:blue;">|</mark> Fracture of femur<mark style="color:blue;">|</mark>, and therefore (as the diagram[^1] below illustrates), the concept 54441004 <mark style="color:blue;">|</mark> Fracture of shaft of femur<mark style="color:blue;">|</mark> is subsumed by 71620000 <mark style="color:blue;">|</mark> Fracture of femur<mark style="color:blue;">|</mark> .
 
-<figure><img src="images/123897609.png" alt=""><figcaption><p>Example of subsumption</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897609.png" alt=""><figcaption><p>Example of subsumption</p></figcaption></figure>
 
 This also means that if a patient has a 54441004 <mark style="color:blue;">|</mark> Fracture of shaft of femur<mark style="color:blue;">|</mark>, then it is implied (i.e. it is also true) that they have a 71620000 <mark style="color:blue;">|</mark> Fracture of femur<mark style="color:blue;">|</mark>. We can use this principal to aggregate health records that have been encoded with SNOMED CT. By selecting any code that is a subtype of 71620000 <mark style="color:blue;">|</mark> Fracture of femur<mark style="color:blue;">|</mark>, we are selecting all the codes that imply that 71620000 <mark style="color:blue;">|</mark> Fracture of femur<mark style="color:blue;">|</mark> is true (given the appropriate context).
 
 When testing for subsumption, we must also consider the transitivity of the 116680003 <mark style="color:blue;">|</mark> is a<mark style="color:blue;">|</mark> relationship. For example, the diagram below indicates that 426656000 <mark style="color:blue;">|</mark> Severe persistent asthma<mark style="color:blue;">|</mark> is a subtype of 370221004 <mark style="color:blue;">|</mark> Severe asthma<mark style="color:blue;">|</mark> which is a subtype of 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>. Therefore 426656000 <mark style="color:blue;">|</mark> Severe persistent asthma<mark style="color:blue;">|</mark> is also a subtype of 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>.
 
-<figure><img src="images/123897608.png" alt=""><figcaption><p>Example of subsumption and transitivity</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897608.png" alt=""><figcaption><p>Example of subsumption and transitivity</p></figcaption></figure>
 
 As previously suggested in the section [SNOMED CT Features](<1 introduction/1.1-overview.md#snomed-ct-features>), the hierarchical relationships of SNOMED CT can be leveraged to enable clinical decision support. More specifically, we can apply subsumption testing to make additional determinations. For additional information on subsumption, please refer to [Subsumption](https://app.gitbook.com/s/uKngFry3XF9A8phdXFe8/6-snomed-ct-analytic-techniques/6.2-subsumption) in the [SNOMED CT Data Analytics Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/uKngFry3XF9A8phdXFe8/).
 
@@ -70,7 +70,7 @@ As previously suggested in the section [SNOMED CT Features](<1 introduction/1.1-
 
 The diagram below shows a simple CDS rule based on the IF-condition-THEN-action pattern. This rule uses the _descendant or self_ operator (<<) from the [Expression Constraint Language](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/sOJBD7YbxAy9bD1Ko9L9/) to check if the diagnosis is in the set of concepts that includes 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark> and all of its subtypes.
 
-<figure><img src="images/123897606.png" alt=""><figcaption><p>CDS rule defined using subsumption</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897606.png" alt=""><figcaption><p>CDS rule defined using subsumption</p></figcaption></figure>
 
 #### Execution of Rule
 
@@ -78,7 +78,7 @@ When executing this rule, the inference engine tests if the given diagnosis is s
 
 The diagram below illustrates the process followed by the inference engine in executing the CDS condition in the above rule, when the clinician selects a diagnosis of 426979002 <mark style="color:blue;">|</mark> Mild persistent asthma<mark style="color:blue;">|</mark>. The inference engine checks if this concept is a subtype of 195967001 <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark>, and determines that it is. As a result, the condition evaluates to true, and the action is triggered.
 
-<figure><img src="images/123897832.png" alt=""><figcaption><p>The inference engine checks if the diagnosis entered is a subtype of |Asthma|</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897832.png" alt=""><figcaption><p>The inference engine checks if the diagnosis entered is a subtype of |Asthma|</p></figcaption></figure>
 
 ### Reasoning Using Defining Relationships
 
@@ -100,7 +100,7 @@ As previously suggested in the section [SNOMED CT Features](<1 introduction/1.1-
 
 The diagram below shows a simple CDS rule based on the IF-condition-THEN-action pattern. This rule uses attribute refinements in the [SNOMED CT Expression Constraint Language](http://snomed.org/ecl) to define the set of procedures with a 71388002 <mark style="color:blue;">|</mark> Procedure site<mark style="color:blue;">|</mark> that is a type of 20139000 <mark style="color:blue;">|</mark> Structure of the respiratory system<mark style="color:blue;">|</mark>.
 
-<figure><img src="images/123897618.png" alt=""><figcaption><p>CDS rule which uses a defining relationship in its definition</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897618.png" alt=""><figcaption><p>CDS rule which uses a defining relationship in its definition</p></figcaption></figure>
 
 Using attribute refinements in the CDS rule criteria facilitates richer expressivity and specificity in the rules. For example, we can restrict pharmaceutical/biological products based on their active ingredients, procedures based on their methods, and disorders based on their finding sites.
 
@@ -173,7 +173,7 @@ This section presents some examples of standards for accessing clinical records.
 
 The [Quality Improvement Core](#user-content-fn-3)[^3] (QICore) Implementation Guide is a U.S. realm-specific CDS initiative that references a logical model called the Quality Information and Clinical Knowledge ([QUICK](http://hl7.org/fhir/us/qicore/2016Sep/quick/)) model. The QUICK model (which is expected to be aligned with CIMI formalisms) will provide a uniform way for clinical decision support and quality measures in the U.S. to refer to clinical data. The QUICK logical model is defined as a series of QICore specific FHIR profiles. It provides a way for applications to access data using FHIR interfaces. Several of these QICore profiles have bindings to SNOMED CT value sets in their definition. For example, the Condition model (shown below) binds a 'SNOMED CT Body Structure' value set to the data element 'bodySite'.
 
-<figure><img src="images/123897653.png" alt=""><figcaption><p>QUICK Conditions model</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897653.png" alt=""><figcaption><p>QUICK Conditions model</p></figcaption></figure>
 
 The QUICK logical model provides the basis upon which the FHIR RESTful interfaces refer to clinical data in a CDS service. For more information on QICore please refer to [Quality Improvement Core (QI-Core) Implementation Guide](http://hl7.org/fhir/us/qicore/2016Sep/).
 
@@ -210,7 +210,7 @@ GELLO provides a standardized interface and query language for accessing data in
 
 Using GELLO with the vMR ensures that the code does not alter the physical medical record. It can also be used to answer complex queries and to query a reference terminology such as SNOMED CT. The example screen shot below illustrates how SNOMED CT refinements can be used in a GELLO expression:
 
-<figure><img src="images/123897651.png" alt=""><figcaption><p>GELLO expression using SNOMED CT refinement</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897651.png" alt=""><figcaption><p>GELLO expression using SNOMED CT refinement</p></figcaption></figure>
 
 For more information about GELLO, please refer to [HL7 Version 3 Standard: GELLO, A Common Expression Language, Release 2](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=5) or [http://gello.org](http://gello.org/).
 
@@ -228,7 +228,7 @@ As discussed in section [EHR System Architecture](2-logical-architecture.md#ehr-
 
 An application programming interface (API) for a SNOMED CT enabled terminology server can be used to execute SNOMED CT searches and queries. The principle benefit of using a terminology server API is the reusability. Other systems are able to access terminology services without having to re-implement their functionality. Another key benefit is that the internal workings of the solution can be modified, improved, upgraded without impacting the external interfaces. For example, SNOMED CT can be updated, without necessitating any changes to the external systems which use terminology services. A number of commercial terminology servers offer proprietary APIs that enable SNOMED CT search and query. [These include Dataline’s SnAPI solution and B2i’s Snow Owl Terminology Server](#user-content-fn-7)[^7]. The following diagram depicts how the individual terminology services interact with the terminology store:
 
-<figure><img src="images/123897657.png" alt=""><figcaption><p>Terminology services and terminology store interactions</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897657.png" alt=""><figcaption><p>Terminology services and terminology store interactions</p></figcaption></figure>
 
 Services that load the terminology data into the server, either for installation or updating are illustrated on the left, while services which search and query over the installed terminology content are depicted on the right. The diagram also shows how the services depicted on the right could be made available to other services and components such as a CDS inference engine through the use of an API.
 

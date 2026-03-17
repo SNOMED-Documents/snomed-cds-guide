@@ -42,7 +42,7 @@ M\*Modal uses SNOMED CT in a number of clinical decision support use cases, incl
 
 Concept level information models are represented as a series of name-value pairs as shown in the image below.
 
-<figure><img src="../../images/123897760.png" alt=""><figcaption><p>Finding information model using SNOMED CT concepts</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897760.png" alt=""><figcaption><p>Finding information model using SNOMED CT concepts</p></figcaption></figure>
 
 This finding information model can capture additional information about any SNOMED CT Clinical Finding or Disorder. In this case, the model is interpreting the clinical narrative of “ _4-5 mm solid, lobulated, parenchymal nodule right middle lobe previously 4-5 mm_ ” and mapping the text to the following SNOMED CT concepts:
 
@@ -62,17 +62,17 @@ The size was captured with the measurement engine as 4-5 mm and compared to the 
 
 Population of the information model is also helped by defining value sets of permitted concepts. For example, the image below shows a list of concepts which are considered legitimate finding sites for lung nodules.
 
-<figure><img src="../../images/123897759.png" alt=""><figcaption><p>Lung site value set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897759.png" alt=""><figcaption><p>Lung site value set</p></figcaption></figure>
 
 In cases where the lexical forms are required by NLU and not represented in SNOMED CT, a synonym may be added. Postcoordination may also be used to define new clinical ideas. Value sets based on SNOMED CT content are used to gather evidence of clinical confidence for a specific condition. For example, "Signs and Symptoms of Exacerbation of Congestive Heart Failure (CHF)" is a value set which leverages the SNOMED CT hierarchy. 49 SNOMED CT concepts and their descendants are used to define this value set, a fragment of which is shown in the image below.
 
-<figure><img src="../../images/123897758.png" alt=""><figcaption><p> Signs and symptoms of exacerbation of CHF value set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897758.png" alt=""><figcaption><p>Signs and symptoms of exacerbation of CHF value set</p></figcaption></figure>
 
 #### Clinical Decision Support
 
 CDS interventions are presented to clinicians via web-based applications, such as Fluency for ImagingTM (FFI), M\*Modal's speech reporting and workflow management solution. Computer-Assisted Physician Documentation (CAPD) technology presents radiologists with real-time, automated quality-improvement feedback. In the image below, a clinical decision support notification is presented to a radiologist while dictating a CT lung screening study which had the same finding as described in the 'Finding information model using SNOMED CT concepts' image above. The clinical reasoning reaches a conclusion that the patient has “ _Unchanged solid nodule < 6mm_” which is classified as “LungRads Category 2” based on [American College of Radiologists](https://www.acr.org/Quality-Safety/Resources/LungRADS) (ACR) recommendations and follow-up of “ _Repeat (low dose CT scan) LDCT in 6 months_ ”.
 
-<figure><img src="../../images/123897757.png" alt=""><figcaption><p>M*Modal Fluency for Imaging application with CDS feedback through CAPD technology</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897757.png" alt=""><figcaption><p>M*Modal Fluency for Imaging application with CDS feedback through CAPD technology</p></figcaption></figure>
 
 ### Critical Findings Physician Feedback and Tracking
 
@@ -80,13 +80,13 @@ ACR guidelines also stipulate that critical findings have to be reported back to
 
 The image below is a screen capture of a dashboard which indicates how often a particular critical finding was found, and how often the radiologist fulfilled the follow up requirements. All critical findings in this application are identified using SNOMED CT codes defined in a value set.
 
-<figure><img src="../../images/123897753.png" alt=""><figcaption><p>Critical finding dashboard showing compliant and non-compliant reporting of critical findings found</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897753.png" alt=""><figcaption><p>Critical finding dashboard showing compliant and non-compliant reporting of critical findings found</p></figcaption></figure>
 
 ### Clinical Documentation Improvement (CDI)
 
 The CDI use case leverages M\*Modal's CDS reasoning layer to identify encounters that do not capture clinical diagnosis at the appropriate level of specificity in concepts such as laterality, acuity, severity, episode of care, risk of mortality, etc., to support ICD-10 and quality requirements. The M\*Modal system delivers these insights to CDI Specialists in the back end to automate chart review while also generating summarized supporting evidence of clinical indicators that include information on vital signs, labs, symptoms/diseases, medications, social history, etc. as shown in the image below.
 
-<figure><img src="../../images/123897754.png" alt=""><figcaption><p>M*Modal evidence sheet of clinical indicators to support the back-end CDI Specialist workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897754.png" alt=""><figcaption><p>M*Modal evidence sheet of clinical indicators to support the back-end CDI Specialist workflow</p></figcaption></figure>
 
 As mentioned earlier, the same clinical reasoning is also leveraged to provide real-time feedback to physicians at the front-end of the documentation creation process to identify gaps in documentation and variance in patient care for a closed-loop approach.
 
@@ -97,11 +97,6 @@ As mentioned earlier, the same clinical reasoning is also leveraged to provide r
 | [1](https://confluence.ihtsdotools.org/display/DOCCDS/M*Modal#FootnoteMarker1-0) | [https://mmodal.com/resources/product-brochures/mmodal-fluency-direct/](https://mmodal.com/resources/product-brochures/mmodal-fluency-direct/) |
 | [2](https://confluence.ihtsdotools.org/display/DOCCDS/M*Modal#FootnoteMarker2-0) | [https://mmodal.com/](https://mmodal.com/)                                                                                                     |
 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=M%5C%2AModal" class="button primary">Provide Feedback</a>
+
 [^1]: [https://www.solventum.com/en-us/home/health-information-technology/solutions/fluency-direct/](https://www.solventum.com/en-us/home/health-information-technology/solutions/fluency-direct/)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=M%5C%2AModal" class="button primary">Provide Feedback</a>

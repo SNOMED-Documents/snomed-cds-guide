@@ -3,8 +3,7 @@
 ## Orion Health
 
 {% hint style="info" %}
-[Orion Health is an award-winning, global provider of healthcare information technology advancing population health and precision medicine solutions for personalised care across the entire health community](#user-content-fn-1)[^1]. Orion Health's solutions capture the vast amounts of heath data available and provide the tools to support healthcare professionals and health insurers who manage their members' wellness programmes to make more effective decisions - [through applying analytics and employing care management and patient engagement](#user-content-fn-2)[^2].\
-
+[Orion Health is an award-winning, global provider of healthcare information technology advancing population health and precision medicine solutions for personalised care across the entire health community](#user-content-fn-1)[^1]. Orion Health's solutions capture the vast amounts of heath data available and provide the tools to support healthcare professionals and health insurers who manage their members' wellness programmes to make more effective decisions - [through applying analytics and employing care management and patient engagement](#user-content-fn-2)[^2].\\
 
 For more information please visit [https://orionhealth.com](https://orionhealth.com/global/about-us/our-story/vision-values/)
 {% endhint %}
@@ -24,13 +23,13 @@ SNOMED CT offers a range of significant benefits to Orion Health’s CDS solutio
 
 The Amadeus Clinical Portal as shown in the diagram below provides a single point of access for clinicians to manage patient information. This portal integrates the CDS products mentioned above, including the Medicines and Problem List applications. All Orion Health’s CDS applications expose their data using FHIR’s RESTful APIs. The use of SNOMED CT in these products also facilitates easier translation to standard messaging formats, such as HL7 CDA or other message structures mandated by local jurisdictions.
 
-<figure><img src="../../images/123897713.png" alt=""><figcaption><p>Clinical Portal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897713.png" alt=""><figcaption><p>Clinical Portal</p></figcaption></figure>
 
 ## Global Drug Model
 
 The _Global Drug Model_ (GDM) enables Orion’s software to be deployed worldwide. This application standardizes and normalizes data sets from many different countries into a single data model. Customers upload their local SNOMED CT edition into GDM via an application that runs inside the Orion Health Clinical Portal. GDM processes the data and then publishes it using HL7 FHIR’s RESTful APIs. The processing performed by GDM makes heavy use of the SNOMED CT defining relationships, as well as discovering data about drug classes that is present in the terminology releases. This application facilitates a number of clinical decision support functions, including duplicate therapy checking and linking to relevant drug monographs. The use of SNOMED CT concepts in the GDM is illustrated in the screenshot shown in the diagram below.
 
-<figure><img src="../../images/123897708.png" alt=""><figcaption><p>Global Drug Model</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897708.png" alt=""><figcaption><p>Global Drug Model</p></figcaption></figure>
 
 ## Orion Health Medicines
 
@@ -46,17 +45,12 @@ The _Clinical Decision Support_ (CDS) application is a new product that integrat
 
 For example, when new medications are added to a patient’s medication list, they are automatically screened against the current list of medications for that patient using the CDS Duplicate Therapy API. This check ensures that the clinician is advised of existing medications with the same ingredients. Clinicians viewing medications are able to access drug monographs and any other additional information listed against a medication. The medication list is also screened using the CDS Drug Allergy API, which presents a warning if a drug allergy or intolerance to a particular medication or drug class is detected. These checks use data traversal algorithms that were developed by Orion Health for fast traversal of the SNOMED CT concept hierarchy and defining relationships. The warnings have been specifically designed to minimize alert fatigue. The Orion Health Problem List application is shown below in the diagram below with an adverse reaction alert.
 
-<figure><img src="../../images/123897711.png" alt=""><figcaption><p>Problem List with CDS alert functionality</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897711.png" alt=""><figcaption><p>Problem List with CDS alert functionality</p></figcaption></figure>
 
 ***
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Orion%20Health" class="button primary">Provide Feedback</a>
 
 [^1]: [https://orionhealth.com/global/about-us/our-story/our-story/](https://orionhealth.com/global/about-us/our-story/our-story/)
 
 [^2]: [https://orionhealth.com/global/about-us/values/#](https://orionhealth.com/global/about-us/values/)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Orion%20Health" class="button primary">Provide Feedback</a>

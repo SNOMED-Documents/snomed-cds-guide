@@ -12,7 +12,7 @@ Practice Fusion’s EHR uses the[ Health Language Enterprise Terminology Managem
 
 Practice Fusion has chosen to make SNOMED CT codes and descriptions available for viewing in the user interface. As shown in the screen shot below, when recording a diagnosis a provider can examine the mappings between the user interface term, ICD-9, ICD-10 and SNOMED CT. This approach has received positive feedback from their users as it provides an additional layer of validation when selecting a concept to record in the patient’s health record. Since 2014, all diagnoses recorded in Practice Fusion’s EHRs have included the associated SNOMED CT codes.
 
-<figure><img src="../../images/123897704.png" alt=""><figcaption><p>Adding a diagnosis in Practice Fusion’s EHR</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897704.png" alt=""><figcaption><p>Adding a diagnosis in Practice Fusion’s EHR</p></figcaption></figure>
 
 ## Clinical Decision Support Advisories
 
@@ -22,7 +22,7 @@ Practice Fusion creates and maintains value sets which include, SNOMED CT concep
 
 SNOMED CT is particularly useful for rare diseases, enabling expression of diagnoses requiring a high degree of specificity and which may not be sufficiently defined in ICD. For example, the screen shot below illustrates a CDS advisory that is triggered when clinical markers considered high-risk for 274864009 <mark style="color:blue;">|</mark> Pompe disease<mark style="color:blue;">|</mark>, are detected in the patient’s health record. Using the hierarchy of SNOMED CT, appropriate value sets were defined that help to identify those patients for which a GAA enzyme assay order should be considered to confirm the presence or absence of the diagnosis.
 
-<figure><img src="../../images/123897703.png" alt=""><figcaption><p>CDS advisory for Pompe Disease</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897703.png" alt=""><figcaption><p>CDS advisory for Pompe Disease</p></figcaption></figure>
 
 Examples of other advisories that use SNOMED CT value sets in their criteria include:
 

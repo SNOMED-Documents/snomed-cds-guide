@@ -20,7 +20,7 @@ Table: Descriptions of the major architectural components of an EHR system
 
 The major architectural components of an EHR system that incorporates CDS interact with each other in a variety of ways to support the overall functioning of the EHR. The diagram below uses orange arrows to illustrate the primary interactions between these EHR components.
 
-<figure><img src="images/123897454.png" alt=""><figcaption><p>EHR components and key interactions</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897454.png" alt=""><figcaption><p>EHR components and key interactions</p></figcaption></figure>
 
 As shown above, the UI communicates with the record services to facilitate the storage and subsequent retrieval of health record data. The UI also provides inputs to the CDSS and displays alerts and guidelines on its behalf. The CDSS uses the inputs from the UI and data from the record and terminology services to processes decision support rules. The CDSS uses the inputs from the record and terminology services to determine whether or not the CDS conditions have been met, and if so then CDS interventions, such as alerts or knowledge resources, are delivered back to the UI. The internal components and processes of the CDSS will be described in more detail in the next section.
 
@@ -38,7 +38,7 @@ Table: Descriptions of the major architectural components of a CDSS
 
 The diagram below illustrates how the components of the CDSS (shown in the blue box) work together with the components of the EHR system (shown in the red box).
 
-<figure><img src="images/123897780.png" alt=""><figcaption><p>CDSS components and key interactions</p></figcaption></figure>
+<figure><img src=".gitbook/assets/123897780.png" alt=""><figcaption><p>CDSS components and key interactions</p></figcaption></figure>
 
 Internal CDSS interfaces are represented by the green directional arrows, while external CDSS interfaces are represented by the orange arrows. Note that the inference engine interfaces directly with record and terminology services while communications, which is focused on the delivery of CDSS inputs and outputs, interfaces directly with the user interface.
 

@@ -14,7 +14,7 @@ EBMPracticeNet is a consortium of Belgian organizations whose mission is to deve
 
 The EBMPracticeNet consortium hosts a platform of clinical practice guidelines. Seventy five of these are from Belgium, and an additional 1000 international guidelines have been developed by [Duodecim](../vendor-case-studies/duodecim.md), the Finnish developers of EBM guidelines. The knowledge resources from Duodecim have been translated from its language of origin into both Dutch and French, and localized for Belgium using a variant of the [ADAPTE](http://www.g-i-n.net/document-store/working-groups-documents/adaptation/adapte-resource-toolkit-guideline-adaptation-2-0.pdf) framework. Currently all guidelines are accessible through the EHR using the EvidenceLinker, which suggests relevant guidelines based on the coded diagnosis. The EvidenceLinker currently uses ICPC-2 codes for this linkage. Additionally, EBMPracticeNet uses Duodecim’s [EBMeDS](../vendor-case-studies/duodecim.md#ebmeds) as the engine in their clinical decision support system, which is currently in the pilot phase. A depiction of the architecture is shown below.
 
-<figure><img src="../../images/123897700.png" alt=""><figcaption><p>EBMeDS architecture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897700.png" alt=""><figcaption><p>EBMeDS architecture</p></figcaption></figure>
 
 ## SNOMED CT
 

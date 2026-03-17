@@ -14,7 +14,7 @@ The [National Institutes of Health](https://www.nih.gov/) (NIH) is a federally s
 
 The [Value Set Authority Center](https://vsac.nlm.nih.gov/) (VSAC),[ managed by the NLM, is a service designed to maintain and distribute the value sets defined in](#user-content-fn-4)[^4] [electronic Clinical Quality Measures](https://ecqi.healthit.gov/ecqms) (eCQMs). Each VSAC value set consists of codes and terms from clinical vocabularies such as SNOMED CT, RxNorm, LOINC and ICD-10-CM . Value sets derived from SNOMED CT are used to support the calculation of data quality measures which in turn provide feedback to clinicians about the quality of care. Note that VSAC is a project administered by NLM, but the actual data quality computations are done at individual healthcare sites.
 
-<figure><img src="../../images/123897697.png" alt=""><figcaption><p>VSAC NLM Value Set Repository</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897697.png" alt=""><figcaption><p>VSAC NLM Value Set Repository</p></figcaption></figure>
 
 ## Medline Plus Connect
 
@@ -32,7 +32,7 @@ The [Value Set Authority Center](https://vsac.nlm.nih.gov/) (VSAC),[ managed by 
 
 The requests conform to the [HL7 Context-Aware Knowledge Retrieval (Infobutton) Knowledge Request URL-Based Implementation Guide](http://wiki.hl7.org/index.php?title=Product_Infobutton#Product_Name_-_HL7_V3_IG:_URL-Based_Implementations_of_the_Context-Aware_Information_Retrieval_.28Infobutton.29). A screen shot of the application's response to a request for information on <mark style="color:blue;">|</mark> Asthma<mark style="color:blue;">|</mark> is provided below:
 
-<figure><img src="../../images/123897692.png" alt=""><figcaption><p>MedlinePlus Connect web application response to request for information on problem code 195967001 | Asthma (disorder) |</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897692.png" alt=""><figcaption><p>MedlinePlus Connect web application response to request for information on problem code 195967001 | Asthma (disorder) |</p></figcaption></figure>
 
 ## Observational Health Data Sciences and Informatics (OHDSI)
 

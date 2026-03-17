@@ -14,7 +14,7 @@ The Pharmacy Health Information Technology Collaborative (PHIT Collaborative) is
 
 The PHIT collaborative has been working towards the standardization of clinical pharmacy documentation which includes the use of SNOMED CT to record events such as a 404684003 <mark style="color:blue;">|</mark> Clinical finding<mark style="color:blue;">|</mark>, 71388002 <mark style="color:blue;">|</mark> Procedure<mark style="color:blue;">|</mark>, or 243796009 <mark style="color:blue;">|</mark> Situation with explicit context<mark style="color:blue;">|</mark>. This has resulted in a number of SNOMED CT value sets being published in the [National Library of Medicine](https://www.nlm.nih.gov/) (NLM) [Value Set Authority Center](https://vsac.nlm.nih.gov/) (VSAC), such as the one shown in the figure below.
 
-<figure><img src="../../images/123897690.png" alt=""><figcaption><p>Pharmacy HIT Collaborative value set for "Reasons for Interventions Related to Medication Management, Nonadherence"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897690.png" alt=""><figcaption><p>Pharmacy HIT Collaborative value set for "Reasons for Interventions Related to Medication Management, Nonadherence"</p></figcaption></figure>
 
 A major benefit of using SNOMED CT in clinical pharmacy documentation is that SNOMED CT supports the calculation of [electronic Clinical Quality Measures](https://ecqi.healthit.gov/ecqms#eCQMs) (eCQMs). This ensures that pharmacists are included in the overall measurement of quality in the US health care system and more recently, outcomes-based payment models.
 

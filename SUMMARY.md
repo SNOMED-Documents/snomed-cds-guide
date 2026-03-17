@@ -29,3 +29,4 @@
     * [Orion Health](appendix-a-decision-support-case-studies/vendor-case-studies/orion-health.md)
     * [Practice Fusion](appendix-a-decision-support-case-studies/vendor-case-studies/practice-fusion.md)
     * [SimulConsult](appendix-a-decision-support-case-studies/vendor-case-studies/simulconsult.md)
+* [Appendix B - Videos](appendix-b-videos.md)

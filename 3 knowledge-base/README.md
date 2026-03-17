@@ -13,7 +13,7 @@ The characteristics of these knowledge artifacts are described in the section [F
 
 The diagram below illustrates the key interactions with the knowledge base, as described above.
 
-<figure><img src="../images/123897476.png" alt=""><figcaption><p>Knowledge base interactions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/123897476.png" alt=""><figcaption><p>Knowledge base interactions</p></figcaption></figure>
 
 The topics below are presented in more detail in the following sections:
 
@@ -23,9 +23,4 @@ The topics below are presented in more detail in the following sections:
 
 ***
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=Knowledge%20Base" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=Knowledge%20Base" class="button primary">Provide Feedback</a>

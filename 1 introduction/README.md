@@ -35,6 +35,8 @@ The guide presents an introduction to clinical decision support using SNOMED CT 
 * [Knowledge Base](<../3 knowledge-base/>): Describes the knowledge base of a CDSS, in which the knowledge artifacts that drive the CDS are stored, and how SNOMED CT may be used within these artifacts.
 * [Inference Engine](../4-inference-engine.md): Explains how the inference engine of a CDSS can use SNOMED CT to execute the knowledge artifacts in the knowledge base.
 * [Communications](../5-communications.md): Explores some of the considerations around implementing the communication mechanisms in a CDSS.
+* [Appendix A](../appendix-a-decision-support-case-studies/) presents two sets of case studies, which demonstrate the use (or planned use) of SNOMED CT in clinical decision support systems.
+* [Appendix B](../appendix-b-videos.md) includes all videos on clinical decision support using SNOMED CT from the SNOMED International Implementation Course
 
 ***
 

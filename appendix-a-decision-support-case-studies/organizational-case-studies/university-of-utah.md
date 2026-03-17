@@ -1,8 +1,7 @@
 # University of Utah
 
 {% hint style="info" %}
-The[ University of Utah School of Medicine ](#user-content-fn-1)[^1]is widely recognized for interdisciplinary research in the genetics of disease, cancer, biomedical informatics, infectious diseases, and other areas of leading-edge medicine. Innovation is a key priority of the [Biomedical Informatics Core (BMIC](#user-content-fn-2)[^2]), and information technology is critical to advancing the conduct of clinical and translational research.\
-
+The[ University of Utah School of Medicine ](#user-content-fn-1)[^1]is widely recognized for interdisciplinary research in the genetics of disease, cancer, biomedical informatics, infectious diseases, and other areas of leading-edge medicine. Innovation is a key priority of the [Biomedical Informatics Core (BMIC](#user-content-fn-2)[^2]), and information technology is critical to advancing the conduct of clinical and translational research.\\
 
 For more information please visit [http://medicine.utah.edu/](http://medicine.utah.edu/).
 {% endhint %}
@@ -19,19 +18,14 @@ As a major contributor to the development of the [OpenCDS](http://www.opencds.or
 
 SNOMED CT value sets are used to map to clinical concepts referenced in the University's CDS rules. SNOMED CT value sets are also used to configure patient problem lists in OpenInfobutton. Since the Infobutton standard uses SNOMED CT for problem lists, SNOMED CT concept identifiers are embedded in the requests and responses between the EHR and OpenInfobutton architecture, as shown in the figure below.
 
-<figure><img src="../../images/123897687.png" alt=""><figcaption><p> Infobutton architecture which uses SNOMED CT for patient problem lists</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897687.png" alt=""><figcaption><p>Infobutton architecture which uses SNOMED CT for patient problem lists</p></figcaption></figure>
 
 The University has benefited from using a standardized clinical reference terminology which can be used across clinical domains. By using SNOMED CT in OpenInfobutton, the University has improved the interoperability between EHR systems and knowledge resources, by providing more efficient access to the indexed knowledge content.
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=University%20of%20Utah" class="button primary">Provide Feedback</a>
 
 [^1]: [http://medicine.utah.edu/](http://medicine.utah.edu/)
 
 [^2]: [https://ctsi.utah.edu/cores-and-services/bmic](https://ctsi.utah.edu/cores-and-services/bmic)
 
 [^3]: [https://medicine.utah.edu/dbmi](https://medicine.utah.edu/dbmi)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=University%20of%20Utah" class="button primary">Provide Feedback</a>

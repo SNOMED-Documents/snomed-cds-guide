@@ -22,7 +22,7 @@ The BNF is used by a wide range of health professionals including pharmacists, G
 
 BNF reference material is published in electronic format as the [BNF Online](https://www.bnf.org/products/bnf-online/) via the MedicinesComplete platform. This subscription-based content includes information on drugs including indications, dosages, contraindications and advice on disease management. Identifiers from the NHS [dictionary of medicines and devices](http://dmd.medicines.org.uk/DesktopDefault.aspx?tabid=2) (dm+d) are currently represented in the BNF for drugs and preparations. In addition, the BNF uses internal identifiers for content (e.g. a drug monograph). The hierarchical structure for all content is organized by therapeutic use and drug classification. The therapeutic use hierarchy is then organized by body systems (e.g. cardiovascular system) at its top level. Drug monographs, and drug class monographs are listed underneath relevant therapeutic uses and organized in the body system hierarchy. These monographs contain the indications, contraindications, side-effects, medicinal forms, and other information specific to a particular drug or drug class.
 
-<figure><img src="../../images/123897751.png" alt=""><figcaption><p> Fragment of drug monograph for ipratropium bromide</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/123897751.png" alt=""><figcaption><p>Fragment of drug monograph for ipratropium bromide</p></figcaption></figure>
 
 ## Future Plans
 
@@ -32,13 +32,8 @@ The BNF is also working on an initiative to make use of standardized terms, whic
 
 ***
 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=CDS+Guide&#x26;entry.670899847=British%20National%20Formulary" class="button primary">Provide Feedback</a>
+
 [^1]: [https://www.medicinescomplete.com/about/](https://www.medicinescomplete.com/about/) \[ [a](https://confluence.ihtsdotools.org/display/WIPCDS/British+National+Formulary#FootnoteMarker1-0) [b](https://confluence.ihtsdotools.org/display/WIPCDS/British+National+Formulary#FootnoteMarker1-1) ]
 
-[^2]: [	https://www.fpm.org.uk/policypublications/nicebnfcons](https://www.fpm.org.uk/policypublications/nicebnfcons)
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=CDS+Guide&entry.670899847=British%20National%20Formulary" class="button primary">Provide Feedback</a>
+[^2]: [https://www.fpm.org.uk/policypublications/nicebnfcons](https://www.fpm.org.uk/policypublications/nicebnfcons)
