@@ -14,10 +14,8 @@ If you would like the full e-learning experience, you can enroll in the [SNOMED 
 
 #### How to navigate the playlist in GitBook
 
-When a YouTube playlist is embedded in GitBook, only one video is shown on the page at a time, but all playlist videos are still available. To switch between videos:
+When a YouTube playlist is embedded in GitBook, only one video is shown on the page at a time, but all playlist videos are still available.
 
-* Click or tap the playlist icon in the upper right corner \
-  (three horizontal lines with a small play symbol <img src=".gitbook/assets/image (9).png" alt="" data-size="line">)
-* Select the video you want from the list
+* Use the **forward (**<img src=".gitbook/assets/image.png" alt="" data-size="line">**)** and **back (**<img src=".gitbook/assets/image (1).png" alt="" data-size="line">**)** arrows on the video player to move between videos in the playlist
 
 {% embed url="https://youtube.com/playlist?list=PLyEMmgWz-ul0OFnBTSxMpZpd5xNMCbey_&si=lO66YOvVQPdC2Oal" %}
